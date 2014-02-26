@@ -1,0 +1,12 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1002</w:itemID>
+	<w:itemName>Emu Oil</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emuoil</w:itemURL>
+	<w:itemPrice>10</w:itemPrice>
+	<w:itemStock>40</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+			<w:italics>Emu oil gives a wide variety of health benefits</w:italics>
+		</w:document>	
+	</w:itemDescription>
+</w:item>

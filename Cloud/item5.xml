@@ -1,0 +1,12 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1005</w:itemID>
+	<w:itemName>Emu Fledgeling</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emufledgeling</w:itemURL>
+	<w:itemPrice>500</w:itemPrice>
+	<w:itemStock>4</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+		Look at these <w:bold>cute</w:bold> birdies
+		</w:document>
+	</w:itemDescription>
+</w:item>

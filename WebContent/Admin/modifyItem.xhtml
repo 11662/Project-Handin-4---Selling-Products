@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+<h:body>
+<f:metadata>
+			<f:event type="preRenderView" listener="#{Item.ModifyItem}" />
+			<f:viewParam name="ItemID" value="#{Item.itemID}" />
+		</f:metadata>
+
+			<h:form>
+				<p class="">
+					<label>ID</label> <label>#{Item.itemID}</label>
+				</p>
+				<p class="">
+					<label>Name</label><br></br>
+					<h:inputText class="modifyitemRegularTextBox" value="#{Item.itemName}"></h:inputText>
+				</p>
+				<p>
+					<label>Price</label><br></br>
+					<h:inputText class="modifyitemRegularTextBox" value="#{Item.itemPrice}"></h:inputText>
+				</p>
+				<p>
+					<label>Url</label><br></br>
+					<h:inputText class="modifyitemRegularTextBox" value="#{Item.itemURL}"></h:inputText>
+				</p>
+				<p>
+					<label>Description</label><br></br>
+					<h:inputTextarea class="modifyitemDescriptionBox" value="#{Item.itemDescription}"></h:inputTextarea>
+				</p>
+				<h:commandButton class="modifyitemButton" value="Modify" action="#{Item.SaveModifiedItem}"></h:commandButton>
+			</h:form>
+		</h:body>
+
+</html>

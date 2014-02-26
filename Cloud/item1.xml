@@ -1,0 +1,12 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1001</w:itemID>
+	<w:itemName>Emu Egg</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emuegg</w:itemURL>
+	<w:itemPrice>100</w:itemPrice>
+	<w:itemStock>10</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+			Very delicious yum yum
+		</w:document>
+	</w:itemDescription>
+</w:item>

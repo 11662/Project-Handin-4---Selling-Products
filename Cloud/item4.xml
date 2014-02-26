@@ -1,0 +1,18 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1004</w:itemID>
+	<w:itemName>Full Grown Emu</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/fullgrownemu
+		</w:itemURL>
+	<w:itemPrice>1500</w:itemPrice>
+	<w:itemStock>2</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+			Get your own 
+			<w:list>
+			<w:item>beautiful</w:item>
+			<w:item>flightless</w:item>		
+			</w:list>
+			bird
+		</w:document>
+	</w:itemDescription>
+</w:item>

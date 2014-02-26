@@ -1,0 +1,19 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1010</w:itemID>
+	<w:itemName>Electromagnetic Unit</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/electromagneticunit
+		</w:itemURL>
+	<w:itemPrice>1</w:itemPrice>
+	<w:itemStock>800</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+		This unit is slightly out of date, so buy one
+		get one free!
+		<w:bold>
+			<w:list>
+				<w:item>Let <w:italics>us</w:italics> see if <w:bold>we</w:bold> can validate this</w:item>
+			</w:list>
+		</w:bold>
+		</w:document>
+	</w:itemDescription>
+</w:item>

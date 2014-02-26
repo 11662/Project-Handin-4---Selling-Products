@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<h:form>
+	<h:commandButton value="Create item" action="CreateItem"/>
+
+	<h:dataTable value="#{Items.itemList}" var="Item"
+		styleClass="itemListTable" headerClass="itemListTableHeader"
+		columnClasses="itemID,itemName,itemURL,itemPrice,itemStock,itemDescription">
+		<h:column width="20px">
+			<f:facet name="header" width="auto">ID</f:facet>
+			<h:outputText value="#{Item.itemID}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			<f:facet name="header">Name</f:facet>
+			<h:outputText value="#{Item.itemName}"/>
+		</h:column>
+		<h:column>
+			<f:facet name="header">URL</f:facet>
+			<a href="#{Item.itemURL}">Link</a>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Price</f:facet>
+			<h:outputText value="#{Item.itemPrice}"></h:outputText>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Stock</f:facet>
+			<h:outputText value="#{Item.itemStock}"></h:outputText>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Description</f:facet>
+			<h:outputText value="#{Item.itemDescription}"></h:outputText>
+		</h:column>
+		<h:column>
+			<h:commandButton value="Modify item" action="ModifyItem"></h:commandButton>
+		</h:column>
+		<h:column>
+			<h:commandButton value="Adjust item" action="AdjustItem"></h:commandButton>
+		</h:column>
+	</h:dataTable>
+</h:form>
+</html>

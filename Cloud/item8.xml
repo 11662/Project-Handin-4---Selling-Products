@@ -1,0 +1,9 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1008</w:itemID>
+	<w:itemName>Emu Palm Wine</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emupalmwine</w:itemURL>
+	<w:itemPrice>50</w:itemPrice>
+	<w:itemStock>7</w:itemStock>
+	<w:itemDescription>Try this intoxicating alcoholic beverage	created from the sap of coconut palms. 
+		</w:itemDescription>
+</w:item>

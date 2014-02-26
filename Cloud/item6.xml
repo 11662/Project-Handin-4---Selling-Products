@@ -1,0 +1,17 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1006</w:itemID>
+	<w:itemName>Emu Underwear</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emu underwear</w:itemURL>
+	<w:itemPrice>30</w:itemPrice>
+	<w:itemStock>100</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+			<w:list>
+				<w:item> Oh </w:item>
+				<w:item> <w:italics> god </w:italics></w:item>
+				<w:item> why </w:item>
+			</w:list>
+			Oh god why?
+		</w:document>
+	</w:itemDescription>
+</w:item>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13928255510780" configfile="/dWebTek - Handin 3/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Admin/adjustItem.xhtml" x="576" y="324" id="pf13929128472381" referenceLink="//@navigationRule.5/@fromViewId|" outlinks="pf13929138477808" inlinks="pf13929128472382" path="/Admin/adjustItem.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Admin/adminProductList.xhtml" x="252" y="180" id="pf13929128472383" referenceLink="//@navigationRule.6/@navigationCase.0/@toViewId|" outlinks="pf13929128472384 pf13929128472385 pf13929128472382" inlinks="pf13929138477819 pf139291384778110 pf13929138477808 pf13929793117360" path="/Admin/adminProductList.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Admin/modifyItem.xhtml" x="573" y="180" id="pf13929128472386" referenceLink="//@navigationRule.4/@fromViewId|" outlinks="pf139291384778110" inlinks="pf13929128472385" path="/Admin/modifyItem.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Admin/createItem.xhtml" x="576" y="48" id="pf13929128472387" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf13929138477819" inlinks="pf13929128472384" path="/Admin/createItem.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Admin/login.xhtml" x="72" y="180" id="pf13929793117361" referenceLink="//@navigationRule.6/@fromViewId|" outlinks="pf13929793117360" path="/Admin/login.xhtml"/>
+  <links id="pf13929128472384" target="pf13929128472387" source="pf13929128472383" outcome="CreateItem">
+    <bendPoints d1Width="163" d1Height="-51" d2Width="-142" d2Height="81"/>
+  </links>
+  <links id="pf13929128472385" target="pf13929128472386" source="pf13929128472383" outcome="ModifyItem">
+    <bendPoints d1Width="156" d1Height="20" d2Width="-149" d2Height="20"/>
+  </links>
+  <links id="pf13929128472382" target="pf13929128472381" source="pf13929128472383" outcome="AdjustItem">
+    <bendPoints d1Width="130" d1Height="97" d2Width="-175" d2Height="-47"/>
+  </links>
+  <links id="pf13929138477819" target="pf13929128472383" source="pf13929128472387" outcome="Create">
+    <bendPoints d1Width="-174" d1Height="39" d2Width="131" d2Height="-93"/>
+  </links>
+  <links id="pf139291384778110" target="pf13929128472383" source="pf13929128472386" outcome="Modify">
+    <bendPoints d1Width="-101" d1Height="-21" d2Width="204" d2Height="-21"/>
+    <bendPoints d1Width="-150" d1Height="-29" d2Width="155" d2Height="-29"/>
+    <bendPoints d1Width="-150" d1Height="-29" d2Width="155" d2Height="-29"/>
+  </links>
+  <links id="pf13929138477808" target="pf13929128472383" source="pf13929128472381" outcome="Adjust">
+    <bendPoints d1Width="-135" d1Height="-93" d2Width="170" d2Height="51"/>
+  </links>
+  <links id="pf13929793117360" target="pf13929128472383" source="pf13929793117361"/>
+</pageflow:Pageflow>

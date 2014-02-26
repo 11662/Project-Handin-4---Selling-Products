@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modifyItem xmlns="http://www.cs.au.dk/dWebTek/2014"><shopKey>lolol1111</shopKey><w:itemID xmlns:w="http://www.cs.au.dk/dWebTek/2014">1001</w:itemID><w:itemName xmlns:w="http://www.cs.au.dk/dWebTek/2014">Emu Egg</w:itemName><w:itemURL xmlns:w="http://www.cs.au.dk/dWebTek/2014">http://llama11.cs.au.dk:22891/webshop/emuegg</w:itemURL><w:itemPrice xmlns:w="http://www.cs.au.dk/dWebTek/2014">100</w:itemPrice><w:itemDescription xmlns:w="http://www.cs.au.dk/dWebTek/2014"> 
+		<w:document>
+			Very delicious yum yum 
+		</w:document>	
+	</w:itemDescription></modifyItem>

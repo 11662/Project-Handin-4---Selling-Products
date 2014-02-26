@@ -1,0 +1,12 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1007</w:itemID>
+	<w:itemName>Electric multiple unit</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/Trains</w:itemURL>
+	<w:itemPrice>100</w:itemPrice>
+	<w:itemStock>12</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+			Why do we sell a trainset?
+		</w:document>		
+	</w:itemDescription>
+</w:item>

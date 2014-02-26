@@ -1,0 +1,9 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1009</w:itemID>
+	<w:itemName>Emo</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emo</w:itemURL>
+	<w:itemPrice>2</w:itemPrice>
+	<w:itemStock>500000</w:itemStock>
+	<w:itemDescription>bevare of sharp objects
+		</w:itemDescription>
+</w:item>

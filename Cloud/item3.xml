@@ -1,0 +1,12 @@
+<w:item xmlns:w="http://www.cs.au.dk/dWebTek/2014">
+	<w:itemID>1003</w:itemID>
+	<w:itemName>Emu Oil Capsules</w:itemName>
+	<w:itemURL>http://llama11.cs.au.dk:22891/webshop/emucapsules</w:itemURL>
+	<w:itemPrice>12</w:itemPrice>
+	<w:itemStock>25</w:itemStock>
+	<w:itemDescription>
+		<w:document>
+		Try <w:italics>this</w:italics> natural amazing pain relief medicine
+		</w:document>	
+	</w:itemDescription>
+</w:item>
